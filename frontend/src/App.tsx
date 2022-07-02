@@ -27,9 +27,11 @@ function App() {
     return (
         <Wrapper>
             <Box
+                drag
                 variants={boxVariants}
                 whileHover='hover'
                 whileTap='click'
+                whileDrag={{ backgroundColor: 'rgb(46,204,113)' }}
             ></Box>
         </Wrapper>
     );
